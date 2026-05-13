@@ -90,16 +90,20 @@
 
     .calendar-tile {
       position: relative;
+      justify-content: flex-start;
+      align-items: flex-start;
       background: #000000;
       color: #ffffff;
       padding: 0;
     }
 
     .calendar-frame {
-      width: 222%;
-      height: 222%;
+      position: absolute;
+      inset: 0;
+      width: 285%;
+      height: 285%;
       border: 0;
-      transform: scale(0.45);
+      transform: scale(0.35);
       transform-origin: top left;
       pointer-events: none;
     }
@@ -130,9 +134,9 @@
       }
 
       .calendar-frame {
-        width: 250%;
-        height: 250%;
-        transform: scale(0.4);
+        width: 335%;
+        height: 335%;
+        transform: scale(0.3);
       }
     }
   </style>
