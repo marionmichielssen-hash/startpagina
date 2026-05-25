@@ -1,0 +1,17 @@
+{
+  "name": "Startpagina",
+  "short_name": "Startpagina",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f1e8",
+  "theme_color": "#d40000",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
